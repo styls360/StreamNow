@@ -1,5 +1,5 @@
 import { Controller, Get, Post, UseGuards } from '@nestjs/common';
-import { JwtAuthGuard, Roles, RolesGuard, Sanitize } from 'src/common';
+import { JwtAuthGuard, Roles, RolesGuard, Sanitize } from '../../common';
 import { AuthService } from './auth.service';
 import { fileSchema } from './schemas';
 

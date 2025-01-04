@@ -3,7 +3,7 @@ import { Reflector } from '@nestjs/core';
 import * as path from 'path';
 import * as fs from 'fs';
 import * as yup from 'yup';
-import { appConfig } from 'src/configs';
+import { appConfig } from '../../configs';
 import { Helper, readError } from '../utils';
 import { Exception } from '../filters';
 
